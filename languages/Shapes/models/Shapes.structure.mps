@@ -6,6 +6,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -46,7 +47,7 @@
     <property role="EcuMT" value="1609673420996441330" />
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1pmHnaISY$K" role="1TKVEi">
       <property role="IQ2ns" value="1609673420996602160" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -86,13 +87,13 @@
       <property role="TrG5h" value="upperLeftX" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="1pmHnaISnjT" role="1TKVEl">
-      <property role="IQ2nx" value="1609673420996441337" />
-      <property role="TrG5h" value="upperleftY" />
+    <node concept="1TJgyi" id="46Pt6t19sFa" role="1TKVEl">
+      <property role="IQ2nx" value="4734818570073393866" />
+      <property role="TrG5h" value="upperLeftY" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="1pmHnaISnjU" role="1TKVEl">
-      <property role="IQ2nx" value="1609673420996441338" />
+    <node concept="1TJgyi" id="46Pt6t19sFb" role="1TKVEl">
+      <property role="IQ2nx" value="4734818570073393867" />
       <property role="TrG5h" value="size" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
@@ -101,9 +102,12 @@
     <property role="EcuMT" value="1609673420996441339" />
     <property role="TrG5h" value="Canvas" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1pmHnaISnjW" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="46Pt6t1c9zC" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
     <node concept="1TJgyj" id="1pmHnaISnjY" role="1TKVEi">
       <property role="IQ2ns" value="1609673420996441342" />
@@ -118,7 +122,7 @@
     <property role="TrG5h" value="Color" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="color" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1pmHnaISBw9" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -126,7 +130,7 @@
   <node concept="1TIwiD" id="1pmHnaISY$y">
     <property role="EcuMT" value="1609673420996602146" />
     <property role="TrG5h" value="ColorReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1pmHnaISY$$" role="1TKVEi">
       <property role="IQ2ns" value="1609673420996602148" />
       <property role="20kJfa" value="target" />

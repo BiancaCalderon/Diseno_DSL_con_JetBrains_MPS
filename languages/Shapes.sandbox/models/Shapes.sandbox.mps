@@ -21,9 +21,9 @@
         <property id="1609673420996441333" name="y" index="2SHW67" />
       </concept>
       <concept id="1609673420996441335" name="Shapes.structure.Square" flags="ng" index="2SHW65">
-        <property id="1609673420996441338" name="size" index="2SHW68" />
+        <property id="4734818570073393867" name="size" index="0$bUG" />
+        <property id="4734818570073393866" name="upperLeftY" index="0$bUH" />
         <property id="1609673420996441336" name="upperLeftX" index="2SHW6a" />
-        <property id="1609673420996441337" name="upperleftY" index="2SHW6b" />
       </concept>
       <concept id="1609673420996441339" name="Shapes.structure.Canvas" flags="ng" index="2SHW69">
         <child id="1609673420996441342" name="shapes" index="2SHW6c" />
@@ -45,11 +45,11 @@
         <ref role="2SHlLm" to="btc9:1pmHnaISQSf" resolve="red" />
       </node>
     </node>
-    <node concept="2SHW65" id="1pmHnaISnRT" role="2SHW6c">
+    <node concept="2SHW65" id="46Pt6t1acWK" role="2SHW6c">
       <property role="2SHW6a" value="100" />
-      <property role="2SHW6b" value="200" />
-      <property role="2SHW68" value="50" />
-      <node concept="2SHlLg" id="1pmHnaITcuU" role="2SHlL2">
+      <property role="0$bUH" value="200" />
+      <property role="0$bUG" value="50" />
+      <node concept="2SHlLg" id="46Pt6t1acWN" role="2SHlL2">
         <ref role="2SHlLm" to="btc9:1pmHnaISQSe" resolve="yellow" />
       </node>
     </node>

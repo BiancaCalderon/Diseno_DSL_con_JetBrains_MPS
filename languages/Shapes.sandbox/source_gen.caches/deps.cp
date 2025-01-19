@@ -8,7 +8,7 @@
   <uses module="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" kind="dp" />
   <uses module="ba214374-e0fb-4e8e-8290-609857bfc289(Shapes)" kind="dp" />
   <uses module="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
-  <uses module="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" kind="dp" />
+  <uses module="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" kind="dp" />
   <uses module="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="dp" />
 </dependenciesRoot>
 

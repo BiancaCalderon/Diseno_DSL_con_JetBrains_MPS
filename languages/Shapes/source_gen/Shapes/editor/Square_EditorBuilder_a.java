@@ -50,17 +50,24 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createProperty_0());
     editorCell.addEditorCell(createConstant_1());
-    editorCell.addEditorCell(createProperty_1());
+    editorCell.addEditorCell(createProperty_0());
     editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createProperty_1());
+    editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createProperty_2());
     editorCell.addEditorCell(createComponent_0());
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "square:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "square");
     editorCell.setCellId("Constant_gaismf_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "x:");
+    editorCell.setCellId("Constant_gaismf_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -85,20 +92,20 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_1() {
+  private EditorCell createConstant_2() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "y:");
-    editorCell.setCellId("Constant_gaismf_c0");
+    editorCell.setCellId("Constant_gaismf_d0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.upperleftY$cLCg;
+      final SProperty property = PROPS.upperLeftY$ihl6;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no upperleftY>");
-      editorCell.setCellId("property_upperleftY");
+      editorCell.setDefaultText("<no upperLeftY>");
+      editorCell.setCellId("property_upperLeftY");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
       Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
@@ -112,16 +119,16 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_2() {
+  private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "size:");
-    editorCell.setCellId("Constant_gaismf_e0");
+    editorCell.setCellId("Constant_gaismf_f0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createProperty_2() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.size$cLRh;
+      final SProperty property = PROPS.size$ih$7;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no size>");
@@ -146,8 +153,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class PROPS {
     /*package*/ static final SProperty upperLeftX$cLpf = MetaAdapterFactory.getProperty(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f7L, 0x1656b572aee174f8L, "upperLeftX");
-    /*package*/ static final SProperty upperleftY$cLCg = MetaAdapterFactory.getProperty(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f7L, 0x1656b572aee174f9L, "upperleftY");
-    /*package*/ static final SProperty size$cLRh = MetaAdapterFactory.getProperty(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f7L, 0x1656b572aee174faL, "size");
+    /*package*/ static final SProperty upperLeftY$ihl6 = MetaAdapterFactory.getProperty(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f7L, 0x41b574674125cacaL, "upperLeftY");
+    /*package*/ static final SProperty size$ih$7 = MetaAdapterFactory.getProperty(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f7L, 0x41b574674125cacbL, "size");
   }
 
   private static final class CONCEPTS {

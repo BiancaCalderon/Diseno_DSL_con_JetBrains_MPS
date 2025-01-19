@@ -94,8 +94,11 @@
   <node concept="24kQdi" id="1pmHnaISnSy">
     <ref role="1XX52x" to="8uvb:1pmHnaISnjR" resolve="Square" />
     <node concept="3EZMnI" id="1pmHnaISnS$" role="2wV5jI">
-      <node concept="3F0ifn" id="1pmHnaISnSE" role="3EZMnx">
-        <property role="3F0ifm" value="square:" />
+      <node concept="3F0ifn" id="46Pt6t19sIc" role="3EZMnx">
+        <property role="3F0ifm" value="square" />
+      </node>
+      <node concept="3F0ifn" id="46Pt6t19sIh" role="3EZMnx">
+        <property role="3F0ifm" value="x:" />
       </node>
       <node concept="3F0A7n" id="1pmHnaISnSH" role="3EZMnx">
         <ref role="1NtTu8" to="8uvb:1pmHnaISnjS" resolve="upperLeftX" />
@@ -104,13 +107,13 @@
         <property role="3F0ifm" value="y:" />
       </node>
       <node concept="3F0A7n" id="1pmHnaISnSR" role="3EZMnx">
-        <ref role="1NtTu8" to="8uvb:1pmHnaISnjT" resolve="upperleftY" />
+        <ref role="1NtTu8" to="8uvb:46Pt6t19sFa" resolve="upperLeftY" />
       </node>
       <node concept="3F0ifn" id="1pmHnaISnSW" role="3EZMnx">
         <property role="3F0ifm" value="size:" />
       </node>
       <node concept="3F0A7n" id="1pmHnaISnSZ" role="3EZMnx">
-        <ref role="1NtTu8" to="8uvb:1pmHnaISnjU" resolve="size" />
+        <ref role="1NtTu8" to="8uvb:46Pt6t19sFb" resolve="size" />
       </node>
       <node concept="PMmxH" id="1pmHnaISY_1" role="3EZMnx">
         <ref role="PMmxG" node="1pmHnaISY$L" resolve="ShapeColor" />
@@ -128,7 +131,7 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F2HdR" id="1pmHnaISnTf" role="3EZMnx">
-        <ref role="1NtTu8" to="8uvb:1pmHnaISnjY" />
+        <ref role="1NtTu8" to="8uvb:1pmHnaISnjY" resolve="shapes" />
         <node concept="2iRkQZ" id="1pmHnaISnTi" role="2czzBx" />
         <node concept="VPM3Z" id="1pmHnaISnTj" role="3F10Kt" />
         <node concept="pVoyu" id="1pmHnaISnTk" role="3F10Kt">

@@ -29,6 +29,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.extendedLanguage(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, "jetbrains.mps.execution.util");
   }
 
   @Override
@@ -66,6 +67,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("Shapes", "Canvas", 0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174fbL);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.parent(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, 0x40c1a7cb987d20d5L);
     b.origin("r:c9455df6-ec66-4063-8223-c47dafef9eaf(Shapes.structure)/1609673420996441339");
     b.version(3);
     b.aggregate("shapes", 0x1656b572aee174feL).target(0xba214374e0fb4e8eL, 0x8290609857bfc289L, 0x1656b572aee174f2L).optional(true).ordered(true).multiple(true).origin("1609673420996441342").done();
@@ -117,8 +119,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:c9455df6-ec66-4063-8223-c47dafef9eaf(Shapes.structure)/1609673420996441335");
     b.version(3);
     b.property("upperLeftX", 0x1656b572aee174f8L).type(PrimitiveTypeId.INTEGER).origin("1609673420996441336").done();
-    b.property("upperleftY", 0x1656b572aee174f9L).type(PrimitiveTypeId.INTEGER).origin("1609673420996441337").done();
-    b.property("size", 0x1656b572aee174faL).type(PrimitiveTypeId.INTEGER).origin("1609673420996441338").done();
+    b.property("upperLeftY", 0x41b574674125cacaL).type(PrimitiveTypeId.INTEGER).origin("4734818570073393866").done();
+    b.property("size", 0x41b574674125cacbL).type(PrimitiveTypeId.INTEGER).origin("4734818570073393867").done();
     b.alias("square");
     return b.create();
   }
